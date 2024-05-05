@@ -6,25 +6,25 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F ;
-  --accent1-color: #A42212;
-  --accent2-color: white;
+  --primary-color: #59981A   ;
+  --secondary-color: #ECF87F ;
+  --accent1-color: #81B622;
+  --accent2-color: #3D550C;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Miller Text";
+  --paragraph-font: Lato, "Aribau Grotesk", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
+  --headline-color-on-3D550C: #59981A;  /* headlines on a 3D550C background */ 
+  --headline-color-on-color: #3D550C; /* headlines on a colored background */ 
+  --paragraph-color-on-3D550C: #59981A; /* paragraph text on a 3D550C background */ 
+  --paragraph-color-on-color: #3D550C; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #59981A  ;
+  --nav-link-color: #59981A;
   --nav-background-color: #D4AC0D;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-link-color: #3D550C;
+  --nav-hover-background-color: #59981A;
 }
 
 
@@ -44,7 +44,7 @@ img {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
-  color: var(--headline-color-on-white);
+  color: var(--headline-color-on-3D550C);
 }
 h2 {
   text-align: center;
@@ -65,7 +65,7 @@ header > h1, header > h2 {
 }
 p {
   font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-white);
+  color: var(--paragraph-color-on-3D550C);
   padding: 1em;
 }
 .colors {
