@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  width: 800px; /* Adjust width as needed */
+  width: 800px; 
   margin: 50px auto;
   text-align: center;
 }
@@ -26,9 +26,9 @@ p1 {
 }
 
 img {
-  display: block; /* Make the image a block element for centering */
-  margin: 20px auto; /* Add margins for spacing */
-  width: 40%; /* Set width to 60% of its original size */
+  display: block; 
+  margin: 20px auto; 
+  width: 40%; 
 }
 
 .text-content p:first-child, .text-content p:last-child {
