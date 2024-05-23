@@ -1,7 +1,6 @@
-/* Assuming web-safe fonts for body and headlines */
 body {
   background-color: #fcfbfb;
-  font-family: Arial, sans-serif; /* Replace with your chosen fonts */
+  font-family: Arial, sans-serif; 
   font-size: 22px;
   margin: 0;
   padding: 0;
@@ -11,13 +10,12 @@ h2 {
   margin: 0;
 }
 
-/* Import for non-web-safe fonts (replace with your import statement if needed) */
 /* @import url('https://fonts.googleapis.com/css?family=YourFont'); */
 
 .home-title {
   color: white;
-  font-family: Georgia, serif; /* Replace with your chosen fonts */
-  font-size: 2em; /* Twice the body size */
+  font-family: Georgia, serif; 
+  font-size: 2em; 
 }
 
 nav a,
@@ -94,14 +92,14 @@ h4 {
 }
 
 .image-container {
-  display: flex; /* Or use flexbox or grid for more control */
-  justify-content: space-between; /* Or position accordingly */
+  display: flex; 
+  justify-content: space-between; 
 }
 
 .colored-square {
-  background-color: burlywood; /* Replace with your desired color */
-  width: 100%; /* Adjust width as needed */
-  height: 600px; /* Adjust height as needed */
+  background-color: burlywood; 
+  width: 100%; 
+  height: 600px; 
   
 }
 
@@ -130,18 +128,16 @@ footer p {
   font-size: 1.2em;
 }
 
-/* Additional styles from instructions */
-
 nav a {
-  padding: 35px; /* As instructed */
+  padding: 35px; 
 }
 
 .book, .join {
-  margin-top: 50px; /* As instructed */
+  margin-top: 50px; 
 }
 
 .rivers-card, .camping-card, .rapids-card {
-  margin: 200px 0; /* As instructed */
+  margin: 200px 0; 
 }
 
 .mountains {
@@ -149,15 +145,15 @@ nav a {
 }
 
 footer {
-  margin-top: 200px; /* As instructed */
+  margin-top: 200px; 
 }
 
 .book, .join {
-  border-radius: 5px; /* As instructed */
+  border-radius: 5px; 
 }
 
 .card-img {
-  border: 10px solid #d9c2a3; /* Replace with your chosen color */
+  border: 10px solid #d9c2a3; 
 }
 
 main section img {
@@ -165,5 +161,5 @@ main section img {
 }
 
 .msg p {
-  padding-bottom: 15px; /* As instructed */
+  padding-bottom: 15px; 
 }
