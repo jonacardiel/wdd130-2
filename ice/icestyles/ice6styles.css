@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;  /* Two equal columns */
+  height: 100vh;
+  grid-template-areas: "header header";
+}
+
+.left-side,
+.right-side {
+  text-align: center;
+}
+
+
+
+.right-side {
+  background-color: lightgray;
+  display: flex; /* Flexbox can be kept for centering within the cell */
+  align-items: center;
+  justify-content: center;
+}
+
+.cherry-image {
+  width: 100%;
+  
+  /* Removed positioning as we will use grid for placement */
+}
+
+.title {
+  position: absolute;
+  top: 15%;
+  right: 25%;
+  color: black;
+  font-size: 200px;
+  /* Removed positioning as we will use grid for placement */
+  white-space: nowrap;
+  letter-spacing: 15px;
+  grid-column: 1/2 span;
+}
+
+.subtitle {
+  color: maroon;
+  font-size: 100px;
+  letter-spacing: 20px;
+}
