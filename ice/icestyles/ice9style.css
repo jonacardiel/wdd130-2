@@ -1,0 +1,46 @@
+.card {
+    width: auto; /* Ensures the card adapts to screen size */
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.card__image {
+width: auto;
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover; /* Scales the image to fill the container */
+    
+}
+
+.card__content {
+    padding: 1rem;
+    text-align: center;
+}
+
+.card__stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates three equally sized columns */
+    grid-gap: 1rem; /* Adds spacing between the grid items */
+    padding: 1rem;
+    border-top: 1px solid #eee;
+    background-color: blue;
+   
+}
+
+.card__stats-item {
+    display: flex;
+    align-items: center;
+}
+
+.card__stats-item p {
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.material-icons {
+    font-size: 18px;
+    color: #666;
+}
