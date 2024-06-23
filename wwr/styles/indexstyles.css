@@ -6,6 +6,7 @@ body {
   font-size: 22px;
   margin: 0;
   padding: 0;
+  display: grid;
 }
 
 h2 {
@@ -80,6 +81,28 @@ nav a:hover {
   grid-column: 3;
   grid-row: 6;
   box-shadow: 5px 5px 10px #6f7364;
+}
+
+.riverhero {
+  z-index: -1;
+  
+}
+
+#text {
+  margin: 10px;
+  text-align: center;
+}
+
+.text {
+  height: 250px;
+  width: 800px;
+  background-color: #c2a98a;
+  z-index: 1;
+  word-wrap: break-word;
+  margin-left: 40%;
+  margin-top: 35%;
+  position: absolute;
+  
 }
 
 footer {
